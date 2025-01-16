@@ -42,7 +42,8 @@
     "startJourneyPart1": "ابدأ رحلتك الآن لإدارة الوظائف، متابعة",
     "startJourneyPart2": "الطلبات، واستكشاف الفرص بكل سهولة!",
     "discoverJobs": "اكتشف وظائفنا",
-
+    "create_job": "أنشئ وظيفة",
+    "start_now_create_job": "ابدأ الآن وأنشئ وظيفتك لتكتشف وتوظف أفضل الكفاءات لمشاريعك المستقبلية!",    
     "calendar": {
       "month": "{month} {year}",
       "task": "المهام",
@@ -146,6 +147,7 @@
     "active_jobs": "الوظائف النشطه ({count})",
     "closed_jobs": "الوظائف المغلقه ({count})",
     "completed_jobs": "الوظائف المكتمله ({count})",
+    "pending_jobs": "الوظائف المنتظرة ({count})",
     "posted_since": "تم النشر منذ أسبوع",
     "monthly": "شهريًا",
     "open": "مفتوح",
@@ -162,7 +164,48 @@
     "close_warning": "إذا قمت بإغلاق هذه الوظيفة، فلن تكون مرئية علنًا ولن يتمكن المستقل من إرسال عرض للوظيفة.",
     "yes_close": "نعم، أغلقها!",
     "cancel": "إلغاء"
-  }
+  },
+  "proposals_submitted": "العروض المقدمة (2)",
+  "hired": "المعينون (0)",
+  "shortlisted": "القائمة المختصرة (0)",
+  "interviews": "المقابلات (0)",
+  "delete_popup": {
+    "confirm_close_job": "هل أنت متأكد أنك تريد إغلاق هذه الوظيفة؟",
+    "close_job_warning": "إذا قمت بإغلاق هذه الوظيفة، فلن تكون مرئية علنًا ولن يتمكن المستقل من إرسال عرض للوظيفة.",
+    "yes_close_it": "نعم، أغلقها!",
+    "cancel": "إلغاء"
+  },
+  "offers": {
+    "freelancer": "عامل مستقل",
+    "completed_orders": "طلبات مكتملة",
+    "completed_order": "الطلب مكتمل",
+    "active": "(نشط)",
+    "offered_amount": "المبلغ المعروض",
+    "delivery_time": "موعد التسليم",
+    "days_ago": "منذ يومين",
+    "amount_placeholder": "(50.00 ر.س)",
+    "delivery_placeholder": "(1 يوم)",
+    "view_offer": "عرض العرض المقدم",
+    "schedule_interview": "إجراء مقابلة",
+    "add_to_shortlist": "إضافة إلى القائمة المختصرة",
+    "reject": "رفض",
+    "job_status": "حالة الطلب",
+    "completed": "مكتمل" ,
+    "sponsor": "ممول",
+    "view_request": "عرض الطلب",
+    "completed_requests": "الطلبات المكتملة",
+    "active_requests": "الطلبات النشطة",
+    "mobile_app_for_service_buyer": "تطبيق الهاتف المحمول لمشتري مزود الخدمة"
+  },
+  "confirmation": {
+    "reject_prompt": "هل أنت متأكد من أنك تريد الرفض؟",
+    "reject_warning": "لن تتمكن من التراجع عن هذا",
+    "confirm_reject": "نعم، أرفضه!"
+  },
+  "messages": {
+    "write_message": "كتابة رسالة",
+    "send_message": "إرسال الرسالة"
+  } 
             
   }
   

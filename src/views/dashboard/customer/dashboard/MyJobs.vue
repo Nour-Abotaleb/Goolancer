@@ -1,30 +1,37 @@
 <script setup>
 import { useI18n } from "vue-i18n";
-const { t } = useI18n();
+const { t, locale } = useI18n();
 </script>
 
 <template>
-  <div class="relative hidden lg:block">
-    <img src="../../../../assets/icons/general/grid.svg" class="" alt="">
-    <div class="absolute flex items-start top-0 right-0 p-4 lg:space-y-4 text-white text-right">
-       <div class="space-y-2">
-            <h2 class="text-sm font-bold lg:text-xl">
-                أنشئ وظيفة
-            </h2>
-        <h2 class="lg:mb-4 lg:text-md">
-            ابدأ الآن وأنشئ وظيفتك لتكتشف وتوظف أفضل الكفاءات لمشاريعك المستقبلية!
+  <!-- Dynamically set direction -->
+  <div class="relative hidden lg:block" :dir="locale === 'ar' ? 'rtl' : 'ltr'">
+    <img src="../../../../assets/icons/general/grid.svg" alt="">
+    <div
+      class="absolute flex items-start top-0 p-4 lg:space-y-4 text-white"
+      :class="locale === 'ar' ? 'right-0 text-right' : 'left-0 text-left'"
+    >
+      <div class="space-y-2">
+        <h2 class="text-sm font-bold lg:text-xl">
+          {{ t('create_job') }}
         </h2>
-       </div>
+        <h2 class="lg:mb-4 lg:text-md">
+          {{ t('start_now_create_job') }}
+        </h2>
+      </div>
       <a
         href="#"
-        class="bg-white whitespace-nowrap mt-1 text-black lg:text-sm text-xs rounded-full py-1 lg:ps-3 ps-2 inline-flex items-center"
+        class="bg-white whitespace-nowrap mt-1 text-black lg:text-sm text-xs rounded-full p-1 inline-flex items-center"
+        :class="locale === 'ar' ? 'lg:ps-3' : 'lg:pe-3'"
       >
-        <span class="me-1 font-bold lg:text-sm">أنشئ وظيفة
-        </span>
+        <button class="me-1 font-bold lg:text-sm">
+          {{ t('create_job') }}
+        </button>
         <img
           src="../../../../assets/icons/general/arrow-up-left.svg"
-          class="inline rounded-full bg-[#94D401] ml-2 lg:w-8 w-7"
+          class="inline rounded-full bg-[#94D401] me-2 lg:w-8 w-7"
           alt=""
+          :class="{'rotate-90': locale === 'en'}"
         />
       </a>
     </div>

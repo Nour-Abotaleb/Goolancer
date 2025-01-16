@@ -69,9 +69,9 @@ const menus = [
     alt: "Create Project Icon",
   },
   {
-    name: "orders",
+    name: "Orders",
     route: "/customer/orders",
-    routeName: "orders",
+    routeName: "Orders",
     icon: Orders,
     iconActive: ColoredOrders,
     translation: "sidebar.my_orders",
@@ -158,8 +158,8 @@ const menus = [
       >
         <img :src="selectedMenu === menu.name ? menu.iconActive : menu.icon" :alt="menu.alt" class="mb-2" />
         <p>{{ t(menu.translation) }}</p>
-        {{ menu.name }} <br>
-        {{ selectedMenu }}
+        <!-- {{ menu.name }} <br>
+        {{ selectedMenu }} -->
       </router-link>
     </div>
     <div class="flex justify-between mt-2">

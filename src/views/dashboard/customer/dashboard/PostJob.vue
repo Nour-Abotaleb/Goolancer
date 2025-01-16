@@ -105,7 +105,7 @@
               @click="nextStep"
               class="bg-black text-white rounded-[20px] focus:outline-none py-1 pe-1 ps-2">
               {{ t('form.next') }}
-              <img src="../../../../assets/icons/general/arrow-left.svg" alt="" class="inline w-6" :class="{'rotate-90': locale === 'en'}"/>
+              <img src="../../../../assets/icons/general/arrow-left.svg" alt="" class="inline w-6" :class="{'rotate-180': locale === 'en'}"/>
             </button>
           </div>
         </form>

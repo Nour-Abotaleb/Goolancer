@@ -9,6 +9,8 @@ import Popup from "@/views/dashboard/customer/dashboard/Popup.vue";
 import { getCurrentScope } from "vue";
 import CustomerJobs from "@/views/dashboard/customer/dashboard/CustomerJobs.vue";
 import JobDetails from "@/views/dashboard/customer/dashboard/JobDetails.vue";
+import Orders from "@/views/dashboard/customer/dashboard/Orders.vue";
+import RequestDetails from "@/views/dashboard/customer/dashboard/RequestDetails.vue";
 const routes = [
     {
         path: "/customer",
@@ -55,6 +57,16 @@ const routes = [
                         path: "job-details",
                         name: "JobDetails",
                         component: JobDetails,
+                    },
+                    {
+                        path: "orders",
+                        name: "Orders",
+                        component: Orders,
+                    },
+                    {
+                        path: "request-details",
+                        name: "RequestDetails",
+                        component: RequestDetails,
                     },
 
                 ]

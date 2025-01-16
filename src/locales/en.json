@@ -39,7 +39,9 @@
     },
     "startJourneyPart1": "Start your journey now to manage jobs, track",
     "startJourneyPart2": "orders, and explore opportunities with ease!",
-    "discoverJobs": "Discover our jobs"   ,
+    "discoverJobs": "Discover our jobs",
+    "create_job": "Create Job",
+    "start_now_create_job": "Start now and create your job to discover and hire the best talents for your future projects!",    
     "calendar": {
     "month": "{month} {year}",
     "task": "Tasks",
@@ -143,6 +145,7 @@
     "active_jobs": "Active Jobs ({count})",
     "closed_jobs": "Closed Jobs ({count})",
     "completed_jobs": "Completed Jobs ({count})",
+    "pending_jobs": "Pending Jobs ({count})",
     "posted_since": "Posted since a week",
     "monthly": "month",
     "open": "Open",
@@ -159,6 +162,47 @@
     "close_warning": "If you close this job, it will no longer be publicly visible, and freelancers won't be able to submit offers.",
     "yes_close": "Yes, close it!",
     "cancel": "Cancel"
+  },
+  "proposals_submitted": "Proposals Submitted (2)",
+  "hired": "Hired (0)",
+  "shortlisted": "Shortlisted (0)",
+  "interviews": "Interviews (0)",
+  "delete_popup": {
+      "confirm_close_job": "Are you sure you want to close this job?",
+      "close_job_warning": "If you close this job, it will no longer be publicly visible, and freelancers will not be able to submit proposals for it.",
+      "yes_close_it": "Yes, close it!",
+      "cancel": "Cancel"
+  },
+  "offers": {
+    "freelancer": "Freelancer",
+    "completed_orders": "Completed Orders",
+    "completed_order": "Completed Order",
+    "completed_requests": "Completed Requests",
+    "active_requests": "Active Requests",
+    "active": "(Active)",
+    "offered_amount": "Offered Amount",
+    "delivery_time": "Delivery Time",
+    "days_ago": "2 days ago",
+    "amount_placeholder": "(50.00 SAR)",
+    "delivery_placeholder": "(1 day)",
+    "view_offer": "View Offer",
+    "schedule_interview": "Schedule Interview",
+    "add_to_shortlist": "Add to Shortlist",
+    "reject": "Reject",
+    "job_status": "Job Status",
+    "completed": "Completed",
+    "sponsor": "Sponsor",
+    "view_request": "View Request",
+    "mobile_app_for_service_buyer": "Mobile App for Service Buyer"
+  },
+  "confirmation": {
+    "reject_prompt": "Are you sure you want to reject?",
+    "reject_warning": "You won't be able to undo this!",
+    "confirm_reject": "Yes, reject it!"
+  },
+  "messages": {
+    "write_message": "Write a Message",
+    "send_message": "Send Message"
   }
   
   }
