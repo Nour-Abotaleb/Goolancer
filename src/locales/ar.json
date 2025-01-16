@@ -1,0 +1,168 @@
+{
+    "dashboard": "لوحة التحكم",
+    "search": "بحث",
+    "user_name": "زهرة عثمان",
+    "notifications": "الإشعارات",
+    "language": "اللغة",
+    "english": "الإنجليزية",
+    "arabic": "العربية",
+    
+    "sidebar": {
+      "identity_verification": "التحقق من الهوية",
+      "two_factor_authentication": "التحقق بخطوتين",
+      "subscriptions": "الاشتراكات",
+      "dashboard": "لوحة التحكم",
+      "ads": "الاعلانات",
+      "create_project": "انشاء مشروع",
+      "my_orders": "طلباتى",
+      "my_offers": "عروضى",
+      "support_tickets": "تذاكر الدعم",
+      "wallet": "المحفظة",
+      "reports": "جميع التقارير",
+      "verify": "تحقق",
+      "settings": "الإعدادات",
+      "logout": "تسجيل الخروج",
+      "message": "الرسائل",
+      "postJob": "نشر وظيفة",
+      "myJobs": "وظائفي",
+      "January 2025": "يناير 2025",
+      "February 2025": "فبراير 2025",
+      "March 2025": "مارس 2025",
+      "April 2025": "أبريل 2025",
+      "May 2025": "مايو 2025",
+      "June 2025": "يونيو 2025",
+      "July 2025": "يوليو 2025",
+      "August 2025": "أغسطس 2025",
+      "September 2025": "سبتمبر 2025",
+      "October 2025": "أكتوبر 2025",
+      "November 2025": "نوفمبر 2025",
+      "December 2025": "ديسمبر 2025"
+    },
+
+    "startJourneyPart1": "ابدأ رحلتك الآن لإدارة الوظائف، متابعة",
+    "startJourneyPart2": "الطلبات، واستكشاف الفرص بكل سهولة!",
+    "discoverJobs": "اكتشف وظائفنا",
+
+    "calendar": {
+      "month": "{month} {year}",
+      "task": "المهام",
+      "graphicDesign": "تصميم جرافيك",
+      "monthly": "/ شهرياً",
+      "view": "عرض",
+      "calendar": {
+        "day": "ي",
+        "hour": "س",
+        "minute": "د",
+      "daysOfWeek": ["س", "ح", "اث", "ث", "أر", "خ", "ج"],
+      "months": [
+        "يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو",
+        "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"
+      ]
+    }
+    },
+    "chart": {
+      "activeRequest": "طلب نشط",
+      "completedRequest": "طلب مكتمل",
+      "allProjects": "جميع المشاريع",
+      "balance": "رصيد",
+      "walletBalance": "رصيد المحفظة"
+    },
+     "viewAll": "عرض الكل",
+     "table": {
+      "id": "رقم",
+      "budget": "الميزانية",
+      "deliveryTime": "وقت التسليم",
+      "paymentStatus": "حالة الدفع",
+      "createdDate": "تاريخ الإنشاء",
+      "actions": "الإجراءات",
+      "completed": "مكتمل",
+      "oneDay": "يوم واحد"
+    },
+    "form": {
+      "jobTitle": "عنوان الوظيفة",
+      "jobTitlePlaceholder": "مثال: احتاج إلى صفحة هبوط",
+      "category": "اختر الفئة",
+      "subcategory": "اختر الفئة الفرعية",
+      "service": "اختر الخدمة",
+      "experienceLevel": "مستوى الخبرة المطلوب",
+      "jobDuration": "مدة الوظيفة",
+      "chooseJobDuration": "اختر المدة المناسبة",
+      "jobDescription": "وصف الوظيفة",
+      "next": "التالي",
+      "previous": "السابق",
+      "post": "نشر",
+      "price": "السعر",
+      "priceExample": "مثال: 5000 جنية",
+      "priceHour": "بالساعة",
+      "fixed": "ثابت",
+      "minimumPrice": "أقل سعر للخدمة 500 جنية",
+      "requiredSkills": "المهارات المطلوبة",
+      "priceHourPlaceholder": "مثال: 50جنيه/ ساعة"
+    },
+    "steps": {
+      "step1": "حول الوظيفة",
+      "step2": "الميزانية والمهارات",
+      "step3": "الإشراف"
+    },
+    "experienceLevels": {
+      "beginner": "مبتدئ",
+      "intermediate": "متوسط",
+      "expert": "خبير"
+    },
+    "durations": {
+      "day": "يوم",
+      "week": "أسبوع",
+      "month": "شهر"
+    },
+    "categories": {
+      "graphicDesign": "تصميم جرافيكي",
+      "webDevelopment": "تطوير مواقع",
+      "contentWriting": "كتابة المحتوى"
+    },
+    "subcategories": {
+      "uiDesign": "تصميم واجهات المستخدم",
+      "2dGraphics": "رسومات ثنائية الأبعاد",
+      "videoEditing": "تحرير الفيديو"
+    },
+    "choices": {
+      "designQuality": {
+        "title": "جودة التصميم",
+        "price": "2000 جنيه",
+        "description": "ضمان تقديم تصاميم احترافية ومبتكرة تتماشى مع معايير التصميم العالمية."
+      },
+      "customerService": {
+        "title": "خدمة العملاء",
+        "price": "1500 جنيه",
+        "description": "تقديم دعم فوري وفعال لضمان رضا العملاء وتحقيق أفضل تجربة ممكنة."
+      },
+      "digitalMarketing": {
+        "title": "التسويق الرقمي",
+        "price": "2500 جنيه",
+        "description": "تقديم استراتيجيات تسويق متقدمة لتحقيق أفضل نتائج ممكنة."
+      }
+    },
+    "jobs": {
+    "all_jobs": "جميع الوظائف ({count})",
+    "active_jobs": "الوظائف النشطه ({count})",
+    "closed_jobs": "الوظائف المغلقه ({count})",
+    "completed_jobs": "الوظائف المكتمله ({count})",
+    "posted_since": "تم النشر منذ أسبوع",
+    "monthly": "شهريًا",
+    "open": "مفتوح",
+    "job_title": "مصمم جرافيك",
+    "job_description": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى،",
+    "level": "مبتدئ",
+    "full_time": "دوام كامل",
+    "submissions": "{count} تقديمات",
+    "experience_years": "خبرة {years} سنوات",
+    "view_job": "عرض الوظيفة",
+    "edit_job": "تعديل الوظيفة",
+    "delete_job": "حذف",
+    "confirm_close": "هل أنت متأكد أنك تريد إغلاق هذه الوظيفة؟",
+    "close_warning": "إذا قمت بإغلاق هذه الوظيفة، فلن تكون مرئية علنًا ولن يتمكن المستقل من إرسال عرض للوظيفة.",
+    "yes_close": "نعم، أغلقها!",
+    "cancel": "إلغاء"
+  }
+            
+  }
+  
