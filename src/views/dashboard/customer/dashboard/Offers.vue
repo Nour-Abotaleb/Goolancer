@@ -131,7 +131,6 @@ const closeSchedulePopup = () => {
                     </div>
                 </div>
             </div>
-
         <!-- Schedule Interview Popup -->
         <div v-if="showSheduleInterviewPopup" class="overlay fixed inset-0 bg-black bg-opacity-80 z-50"></div>
         <div v-if="showSheduleInterviewPopup" class="popup fixed top-1/2 left-1/2 transform space-y-4 -translate-x-1/2 -translate-y-1/2 z-50 mx-auto bg-white rounded-[20px] w-[30%]">

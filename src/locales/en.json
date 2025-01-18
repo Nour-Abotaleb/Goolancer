@@ -64,7 +64,13 @@
     "completedRequest": "Completed",
     "allProjects": "All Projects",
     "balance": "Balance",
-    "walletBalance": "Wallet Balance"
+    "walletBalance": "Wallet Balance",
+    "total_budget": "Total Budget",
+    "labels": {
+      "commissionAmount": "Commission Amount",
+      "earnedBalance": "Earned Balance",
+      "pendingBalance": "Pending Balance"
+    }
   },
   "viewAll": "View All",
   "table": {
@@ -193,7 +199,19 @@
     "completed": "Completed",
     "sponsor": "Sponsor",
     "view_request": "View Request",
-    "mobile_app_for_service_buyer": "Mobile App for Service Buyer"
+    "mobile_app_for_service_buyer": "Mobile App for Service Buyer",
+    "description_requirements": "Description and Requirements",
+    "services": "Services",
+    "approved": "Approved",
+    "uploadFiles": "Upload Files",
+    "viewOffer": "View Offer",
+    "accepted": "Accepted",
+    "customView": "Custom View",
+    "price": "Price",
+    "specificDate": "December 21, 2024",
+    "creationDate": "Creation Date",
+    "acceptOffer": "Accept Offer",
+    "review": "Review (0)"
   },
   "confirmation": {
     "reject_prompt": "Are you sure you want to reject?",
@@ -203,6 +221,63 @@
   "messages": {
     "write_message": "Write a Message",
     "send_message": "Send Message"
+  },
+  "wallet": {
+    "button": "Deposit to Wallet",
+    "balance": "Your Wallet Balance: $3,292.00",
+    "note_message": "Note: Using the deposit balance, you can submit a request.",
+    "wallet_date": "Wallet Date",
+    "code": "Code",
+    "payment_gateway": "Payment Gateway",
+    "payment_status": "Payment Status",
+    "deposit_amount": "Deposit Amount",
+    "deposit_date": "Deposit Date",
+    "amount_label": "Enter deposit amount",
+    "amount_example": "Example: 40.00 SAR",
+    "deposit_button": "Deposit"
+  },
+  "supportTickets": {
+     "ticket": "Ticket",
+     "ticket_search_note": "Note: You can search here using the ticket ID, ticket status,",
+     "ticket_note": " and ticket priority.",
+     "add_new_ticket": "Add New Ticket",
+     "all_tickets": "All Tickets",
+     "ticket_title": "Title",
+    "ticket_priority": "Priority",
+    "ticket_status": "Status",
+    "ticket_section": "Section",
+    "select_section": "Select Section",
+    "enter_ticket_title": "Enter Ticket Title",
+    "select_priority": "Select Priority",
+    "description": "Description",
+    "create_ticket": "Create Ticket",
+    "status_open": "Open",
+    "status_close": "Closed",
+    "priority_high": "High",
+    "priority_medium": "Medium"
+  },
+  "reports": {
+    "status_updated_by_admin": "Updated by Admin",
+    "report_created_date": "Report Created Date",
+    "status_resolved": "Resolved",
+    "status_under_review": "Under Review",
+    "status_in_progress": "In Progress"
+  },
+  "profile": {
+    "change_password": "Change Password",
+    "current_password": "Current Password",
+    "enter_current_password": "Enter Current Password",
+    "new_password": "New Password",
+    "enter_new_password": "Enter New Password",
+    "confirm_new_password": "Confirm New Password",
+    "enter_confirm_new_password": "Enter Confirm New Password",
+    "save_changes": "Save Changes",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Your Email",
+    "country": "Your Country",
+    "state": "Your State",
+    "city": "Your City"
   }
   
   }

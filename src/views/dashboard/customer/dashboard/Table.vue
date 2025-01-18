@@ -27,8 +27,8 @@ const tableData = [
         <tr v-for="(row, index) in tableData" :key="index" class="text-[#787474]">
           <td class="px-4 py-2 text-right border-b flex items-center gap-1"><img src="../../../../assets/icons/general/colored-circle.svg" alt=""><span>{{ index + 1 }}</span></td>
           <td class="px-4 py-2 border-b">$500.00</td>
-          <td class="px-4 py-2 border-b">{{ t('table.oneDay') }}</td> <!-- Use translation here -->
-          <td class="px-4 py-2 border-b text-[#87C101]">{{ t('table.completed') }}</td> <!-- Use translation here -->
+          <td class="px-4 py-2 border-b">{{ t('table.oneDay') }}</td>
+          <td class="px-4 py-2 border-b text-[#87C101]">{{ t('table.completed') }}</td> 
           <td class="px-4 py-2 border-b">Nov 27, 2024</td>
           <td class="px-4 py-2 border-b">
             <div class="flex">

@@ -66,7 +66,13 @@
       "completedRequest": "طلب مكتمل",
       "allProjects": "جميع المشاريع",
       "balance": "رصيد",
-      "walletBalance": "رصيد المحفظة"
+      "walletBalance": "رصيد المحفظة",
+      "total_budget": "إجمالي الميزانية",
+      "labels": {
+        "commissionAmount": "مبلغ العمولة",
+        "earnedBalance": "الرصيد المكتسب",
+        "pendingBalance": "الرصيد المعلق"
+      }
     },
      "viewAll": "عرض الكل",
      "table": {
@@ -195,7 +201,20 @@
     "view_request": "عرض الطلب",
     "completed_requests": "الطلبات المكتملة",
     "active_requests": "الطلبات النشطة",
-    "mobile_app_for_service_buyer": "تطبيق الهاتف المحمول لمشتري مزود الخدمة"
+    "mobile_app_for_service_buyer": "تطبيق الهاتف المحمول لمشتري مزود الخدمة",
+    "description_requirements": "الوصف والمتطلبات",
+    "services": "الأعمال المقدمة",
+    "approved": "تمت الموافقة",
+    "uploadFiles": "تحميل المرفقات",
+    "viewOffer": "رؤية العرض",
+    "accepted": "مقبول",
+    "customView": "عرض مخصص",
+    "price": "السعر",
+    "specificDate": "21 ديسمبر 2024",
+    "creationDate": "تاريخ الإنشاء",
+    "acceptOffer": "قبول العرض",
+    "review": "مراجعة (0)"
+   
   },
   "confirmation": {
     "reject_prompt": "هل أنت متأكد من أنك تريد الرفض؟",
@@ -205,7 +224,64 @@
   "messages": {
     "write_message": "كتابة رسالة",
     "send_message": "إرسال الرسالة"
-  } 
+  },
+  "wallet": {
+    "button": "إيداع في المحفظة",
+    "balance": "رصيد المحفظة: 3,292.00 دولار",
+    "note_message": "تنويه: باستخدام رصيد الإيداع يمكنك تقديم طلب",
+    "wallet_date": "تاريخ المحفظة",
+    "code": "كود",
+    "payment_gateway": "بوابة الدفع",
+    "payment_status": "حالة الدفع",
+    "deposit_amount": "مبلغ الإيداع",
+    "deposit_date": "تاريخ الإيداع",
+    "amount_label": "ادخل مبلغ الإيداع",
+    "amount_example": "مثال: 40.00 ر.س",
+    "deposit_button": "إيداع"
+  },
+  "supportTickets": {
+    "ticket": "تذكرة",
+    "ticket_search_note": "تنويه: يمكنك البحث هنا باستخدام معرف التذكرة، حالة التذكرة،",
+    "ticket_note": "وأولوية التذكرة.",
+    "button": "إضافة تذكرة جديدة",
+    "all_tickets": "جميع التذاكر",
+    "ticket_title": "العنوان",
+    "ticket_priority": "الأولوية",
+    "ticket_status": "الحالة",
+    "ticket_section": "القسم",
+    "select_section": "اختر القسم",
+    "enter_ticket_title": "أدخل عنوان التذكرة",
+    "select_priority": "اختر الأولوية",
+    "description": "الوصف",
+    "create_ticket": "إنشاء تذكرة",
+    "status_open": "مفتوح",
+    "status_close": "مغلق",
+    "priority_high": "عالية",
+    "priority_medium": "متوسطة"
+ },
+ "reports": {
+  "status_updated_by_admin": "تغيير بواسطة المسؤول",
+  "report_created_date": "تاريخ إنشاء التقرير",
+  "status_resolved": "تم الحل",
+  "status_under_review": "قيد المراجعة",
+  "status_in_progress": "قيد التنفيذ"
+},
+"profile": {
+  "change_password": "تغيير كلمة المرور",
+  "current_password": "كلمة المرور الحالية",
+  "enter_current_password": "أدخل كلمة المرور الحالية",
+  "new_password": "كلمة المرور الجديدة",
+  "enter_new_password": "أدخل كلمة المرور الجديدة",
+  "confirm_new_password": "تأكيد كلمة المرور الجديدة",
+  "enter_confirm_new_password": "أكد كلمة المرور الجديدة",
+  "save_changes": "حفظ التغييرات",
+  "first_name": "الاسم الأول",
+  "last_name": "اسم العائلة",
+  "email": "بريدك الإلكتروني",
+  "country": "بلدك",
+  "state": "ولايتك",
+  "city": "مدينتك"
+}
             
   }
   

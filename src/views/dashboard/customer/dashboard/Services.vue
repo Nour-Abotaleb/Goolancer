@@ -12,9 +12,6 @@ const navigateTo = () => {
 const navigateToServices = () => {
   router.push('/customer/services');
 }
-const navigateToRequirements = () => {
-  router.push('/customer/request-details');
-}
 </script>
 
 <template>
@@ -76,17 +73,30 @@ const navigateToRequirements = () => {
          
             </div>
             <div class="flex flex-wrap lg:flex-row gap-2 items-center mt-4">
-                <div @click="navigateToRequirements" class="bg-black text-sm flex items-center py-2 justify-center text-center rounded-[54px] text-white col-span-1 cursor-pointer">
+                <div @click="navigateToServices" class="bg-black text-sm flex items-center py-2 justify-center text-center rounded-[54px] text-white col-span-1 cursor-pointer">
                     <button class="whitespace-nowrap px-2">{{ t('offers.description_requirements') }}</button>
                 </div>          
                          
-                <div @click="navigateToServices" class="bg-white text-sm flex items-center py-2 justify-center text-center rounded-[54px] text-black col-span-1 cursor-pointer">
+                <div class="bg-white text-sm flex items-center py-2 justify-center text-center rounded-[54px] text-black col-span-1 cursor-pointer">
                     <button class="whitespace-nowrap px-2">{{ t('offers.services') }}</button>
                 </div>  
             </div>
         </div>
         <div class="bg-white rounded-2xl p-4 mt-4">
-          مشروع تصميم موقع إلكتروني لبيع المنتجات عبر الإنترنت. الموقع يجب أن يتضمن واجهة مستخدم حديثة، نظام تسجيل دخول للمستخدمين، وخيارات دفع إلكتروني آمنة. المهارات المطلوبة تشمل خبرة في Laravel وVue.js.
+            <div class="flex justify-between">
+                <p class="font-bold">تم تسليم العمل المطلوب وفقًا للمعايير والمتطلبات الموضحة في الطلب.</p>
+                <span class="text-primary bg-[#F4FBE6] rounded-[20px] px-2 py-1">{{ t('offers.approved') }}</span>
+            </div>
+            <div class="flex justify-between">
+                <div class="flex items-center gap-1">
+                    <img src="../../../../assets/icons/general/cloud-download.svg" alt="">
+                    <button class="underline">{{ t('offers.uploadFiles') }}</button>
+                </div>
+                <div class="flex gap-1 py-4">
+                    <img src="../../../../assets/icons/general/clock.svg" alt="">
+                    <p>Nov 27, 2024</p>
+                </div>
+            </div>
         </div>
         </div>
         <!-- Right Duties -->
